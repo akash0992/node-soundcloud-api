@@ -1,7 +1,7 @@
 {
   "name": "node-soundcloud-api",
-  "version": "0.0.3",
-  "description": "",
+  "version": "1.0.0",
+  "description": "node-soundcloud-api is a node js utility module that supports most of the developer available for sound cloud",
   "main": "sound-cloud-api.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akash0992/node-soundcloud-api.git"
+    "url": "https://github.com/akash0992/node-soundcloud-api"
   },
   "author": {
     "name": "Akash Yadav",
@@ -25,5 +25,8 @@
     "mocha": "^3.1.0",
     "request": "^2.72.0",
     "should": "^11.1.0"
+  },
+  "publishConfig": {
+    "@akash0992:registry": "https://npm.pkg.github.com"
   }
 }
