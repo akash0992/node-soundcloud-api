@@ -1,6 +1,6 @@
-#SoundCloud Node API(node-soundcloud-api) 
-**node-soundcloud-api**: _node-soundcloud-api_ is a node js utility module which supports most of the developer available for sound cloud. It is designed get data from  Sound Cloud API in a very simplest way. 
-The SoundCloud API exposes resources(rest api) to manage user data, sounds and play-lists. To access public resources(API), you just have to pass a **sound_cloud_clientId** as parameter. 
+#Node SoundCloud API(node-soundcloud-api) 
+**node-soundcloud-api**: _node-soundcloud-api_ is a node js utility module that supports most of the developer available for sound cloud. It is designed to get data from Sound Cloud API in the simplest way. 
+The SoundCloud API exposes resources(rest api) to manage user data, sounds, and play-lists. To access public resources(API), you just need to pass a **sound_cloud_clientId** as a parameter. 
 You can get the **sound_cloud_clientId** by registering the App over [developer](https://developers.soundcloud.com/) page. 
 ##How to install
 ```bash
@@ -12,7 +12,7 @@ You can get the **sound_cloud_clientId** by registering the App over [developer]
     var soundCloud = require('node-soundcloud-api')(sound_cloud_clientId);
 ```
 ###User APIs:
-By using user's APIs, you can access all the resources of User.
+By using the user's APIs, you can access all the resources of User.
 ####Get All Users of SoundCloud
 ```javascript
 soundCloud.user.getAllUsers(function (err, result) {
