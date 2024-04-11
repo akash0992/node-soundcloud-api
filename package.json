@@ -1,0 +1,29 @@
+{
+  "name": "node-soundcloud-api",
+  "version": "0.0.3",
+  "description": "",
+  "main": "sound-cloud-api.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash0992/node-soundcloud-api.git"
+  },
+  "author": {
+    "name": "Akash Yadav",
+    "email": "akash0992@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akash0992/node-soundcloud-api/issues"
+  },
+  "homepage": "https://github.com/akash0992/node-soundcloud-api#readme",
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0",
+    "request": "^2.72.0",
+    "should": "^11.1.0"
+  }
+}
